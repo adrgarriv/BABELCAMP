@@ -13,7 +13,11 @@ public class Main {
 		suma.suma(2,3);
 		suma.suma_acumulada(5);
 		suma.suma_acumulada(6);
+//<<<<<<< HEAD
 		suma.suma_acumulada(8);//Hecho por el clonado
+//=======
+		suma.suma_acumulada(7); //Hecho por local
+//>>>>>>> a83363b6b9b63f3717862414214f5e8af07146e5
 
 		Resta resta = new Resta();
 		resta.resta(2,3);
