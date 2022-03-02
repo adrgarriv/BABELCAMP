@@ -1,5 +1,6 @@
 public class Resta 
 {
+    /*Comentario fusion sin conflictos*/
 	private int total=0;
 	
 	public Resta() {}
