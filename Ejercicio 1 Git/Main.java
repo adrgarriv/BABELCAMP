@@ -13,6 +13,7 @@ public class Main {
 		suma.suma(2,3);
 		suma.suma_acumulada(5);
 		suma.suma_acumulada(6);
+		suma.suma_acumulada(7); //Hecho por local
 
 		Resta resta = new Resta();
 		resta.resta(2,3);
