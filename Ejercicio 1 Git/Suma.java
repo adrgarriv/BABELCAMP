@@ -1,5 +1,6 @@
 public class Suma 
 {
+	/*Comentario fusion sin conflictos*/
 	private int total=0;
 	
 	public Suma() {}
