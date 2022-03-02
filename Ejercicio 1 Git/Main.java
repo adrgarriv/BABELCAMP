@@ -3,6 +3,7 @@ public class Main {
 
 	public static void main(String[] args) 
 	{
+		/*Comentario fusion con conflictos hecho por master*/
 		// TODO Auto-generated method stub
 		Suma suma = new Suma();
 		suma.suma(2,3);
