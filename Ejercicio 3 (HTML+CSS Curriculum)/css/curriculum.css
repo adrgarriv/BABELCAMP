@@ -1,0 +1,76 @@
+
+#nombre{
+    position: relative;
+    width: 300px;
+    height: 100px;
+    left: 75px;
+    top: 30px;
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#perfil{
+    position: relative;
+    top: -105px;
+    width: 300px;
+    height: 100px;
+    left: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+#aptitudes{
+    position: relative;
+    width: 300px;
+    height: 100px;
+    top: -95px;
+    left: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+#contacto{
+    top: 10px;
+    position: relative;
+    width: 300px;
+    height: 100px;
+    left: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+#derecha{
+    position: relative;
+    left: 530px;
+    top: 105px;
+    width: 600px;
+}
+
+#idiomas{
+    position: relative;
+    top:100px;
+}
+#izquierda{
+    margin-top: -22px;
+    margin-left: -8px;
+    background-color: rgb(71, 78, 94);
+    width: 400px;
+    height: 721px;
+}
+
+ul{
+    margin-top: -18px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+body{
+    margin-bottom: -15px;
+    background-color: whitesmoke;
+}
+.izq{
+    color: rgb(252, 239, 220);
+}
+.txtizq{
+    color:whitesmoke;
+}
+.h1n{
+    margin-top: -30px;
+}
+.h2d{
+    background-color: rgb(252, 239, 220);
+    color: rgb(71, 78, 94);
+    font-family: Arial, Helvetica, sans-serif;
+}
