@@ -1,0 +1,18 @@
+@charset "ISO-8859-1";
+
+body
+{
+	background-color:rgb(71, 78, 94);
+}
+*{
+	color: rgb(252, 239, 220);
+	font-family: Arial, Helvetica, sans-serif;
+}
+h1{
+	text-align: center;
+}
+#enlaces{
+	position: relative;
+	top: 50px;
+	left: 30px;
+}

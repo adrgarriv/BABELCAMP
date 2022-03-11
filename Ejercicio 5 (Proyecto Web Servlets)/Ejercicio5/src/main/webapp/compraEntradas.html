@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Ejercicio 1</title>
+</head>
+<body>
+<div id="contenedor">
+    <table border="1">
+        <caption><strong>Distribución de asientos</strong></caption>
+        <tr>
+            <th>Fila 1</th><td>A1</td><td>A2</td><td>A3</td><td rowspan="7">&nbsp;&nbsp;&nbsp;</td><td>A4</td><td>A5</td><td>A6</td><td>A7</td><td rowspan="7">&nbsp;&nbsp;&nbsp;</td><td>A8</td><td>A9</td><td>A10</td>
+        </tr>
+        <tr>
+            <th>Fila 2</th><td>A1</td><td>A2</td><td>A3</td><td>A4</td><td>A5</td><td>A6</td><td>A7</td><td>A8</td><td>A9</td><td>A10</td>
+        </tr>
+        <tr>
+            <th>Fila 3</th><td>A1</td><td>A2</td><td>A3</td><td>A4</td><td>A5</td><td>A6</td><td>A7</td><td>A8</td><td>A9</td><td>A10</td>
+        </tr>
+        <tr>
+            <th>Fila 4</th><td>A1</td><td>A2</td><td>A3</td><td>A4</td><td>A5</td><td>A6</td><td>A7</td><td>A8</td><td>A9</td><td>A10</td>
+        </tr>
+        <tr>
+            <th>Fila 5</th><td>A1</td><td>A2</td><td>A3</td><td>A4</td><td>A5</td><td>A6</td><td>A7</td><td>A8</td><td>A9</td><td>A10</td>
+        </tr>
+        <tr>
+            <th>Fila 6</th><td>A1</td><td>A2</td><td>A3</td><td>A4</td><td>A5</td><td>A6</td><td>A7</td><td>A8</td><td>A9</td><td>A10</td>
+        </tr>
+        <tr>
+            <th>Fila 7</th><td>A1</td><td>A2</td><td>A3</td><td>A4</td><td>A5</td><td>A6</td><td>A7</td><td>A8</td><td>A9</td><td>A10</td>
+        </tr>
+        <tr>
+            <th id="pantalla" colspan="15">PANTALLA</th>
+        </tr>
+    </table>
+    <br/><br/><br/>
+    <form>
+        <label for="nombre">Nombre:</label>
+        <input type="text" name="nombre" autofocus required/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        <label for="palomitas">¿Añadir menú palomitas?</label>
+        <input type="checkbox" name="pref" value="M"/>	
+        <br/>
+        <label for="apellidos">Apellidos:</label>
+        <input type="text" name="apellidos" required/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        <label for="fila">Escoja fila: </label>
+            <select name="fila">
+                <option value="F1" selected>Fila 1</option>
+                <option value="F2">Fila 2</option>
+                <option value="F3">Fila 3</option>
+                <option value="F4">Fila 4</option>
+                <option value="F5">Fila 5</option>
+                <option value="F6">Fila 6</option>
+                <option value="F7">Fila 7</option>
+            </select>
+        <br/>
+        <label for="email">Correo electrónico:</label>
+        <input type="email" name="email" required/>&nbsp;&nbsp;&nbsp;
+        <label for="asiento">Escoja asiento: </label>
+        <select name="asiento">
+            <option value="A1" selected>A1</option>
+            <option value="A2">A2</option>
+            <option value="A3">A3</option>
+            <option value="A4">A4</option>
+            <option value="A5">A5</option>
+            <option value="A6">A6</option>
+            <option value="A7">A7</option>
+            <option value="A8">A8</option>
+            <option value="A9">A9</option>
+            <option value="A10">A10</option>
+        </select>
+        <br/>
+        <label for="dni">DNI:</label>
+        <input type="text" name="dni" required/>
+        <br/>  <br/>  <br/>
+        <br/>
+        <label for="terminos">¿Ha leído los Términos y condiciones?</label>
+        <input type="checkbox" name="pref" value="M"/>	
+        <br/>  <br/>  <br/>
+        &nbsp;&nbsp;<input type="submit" value="Pagar" />&nbsp;&nbsp;<input type="reset" value="Cancelar" />
+    </form>
+    </div>
+</body>
+</html>

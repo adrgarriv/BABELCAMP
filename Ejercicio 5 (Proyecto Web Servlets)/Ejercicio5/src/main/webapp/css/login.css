@@ -1,0 +1,22 @@
+@charset "ISO-8859-1";
+html,body{
+	display: flex;
+	background-image:url(../img/fondo.jpg);
+	height:100%;
+	width:100%;
+	flex-flow: column nowrap;
+}
+h1{
+	text-align:center;
+	font-family:Arial;
+	color:whitesmoke;
+	background-color: rgb(105, 105, 105);
+}
+#formulario{
+	display: flex;
+	width:90%;
+	height:65%;
+	justify-content: center;
+	flex-flow: column nowrap;
+	align-items:center;
+}
