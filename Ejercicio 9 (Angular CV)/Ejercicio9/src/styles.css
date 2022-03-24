@@ -1,0 +1,81 @@
+html,body{
+    display: flex;
+    background-color: whitesmoke;
+    margin:0;
+    padding:0;
+    border: 0;
+    outline:0;
+    height: 100%;
+    vertical-align: baseline;
+    
+}
+div
+{
+    border: 0;
+    padding:0;
+    outline:0;
+    margin: 0;
+    vertical-align: baseline;
+}
+
+#izquierda{
+    display: flex;
+    flex-flow: column nowrap;
+    background-color: rgb(71, 78, 94);
+    flex:1;
+}
+#derecha{
+    display: flex;
+    flex-flow: column nowrap;
+    flex:3;
+    justify-content: space-evenly;
+}
+
+.izq, .izqh1n{
+    color: rgb(252, 239, 220);
+    font-family: Arial, Helvetica, sans-serif;
+}
+.txtizq{
+    color:whitesmoke;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.h2d{
+    background-color: rgb(252, 239, 220);
+    color: rgb(71, 78, 94);
+    font-family: Arial, Helvetica, sans-serif;
+}
+ul{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+@media screen and (min-device-width: 280px) and (max-device-width:1024px) and  (min-device-height: 592px) and (max-device-height:800px) and (orientation:portrait)
+{
+    #izquierda{
+        display: flex;
+        flex-flow: row nowrap;
+        background-color: rgb(71, 78, 94);
+        flex:1;
+    }
+    #derecha{
+        display: flex;
+        flex-flow: row nowrap;
+        flex:1;
+        justify-content: stretch;
+    }
+}
+@media screen and (min-device-height: 320px) and (max-device-height:600px) and  (min-device-width: 592px) and (max-device-width:1025px) and (orientation:landscape)
+{
+    #izquierda{
+        display: flex;
+        flex-flow: row nowrap;
+        background-color: rgb(71, 78, 94);
+        font-size: small;
+    }
+    #derecha{
+        display: flex;
+        flex-flow: row nowrap;
+        justify-content: space-evenly;
+    }
+}
+

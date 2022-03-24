@@ -1,0 +1,16 @@
+<h1>{{title}}</h1>
+
+<form>
+<label for="operando1">Operando 1: </label>
+<input id="operando1" type="number" name="operando1" placeholder="Operando 1" [(ngModel)]="operando1"/>
+<label for="operando2">Operando 2: </label>
+<input id="operando2" type="number" name="operando2" placeholder="Operando 2" [(ngModel)]="operando2"/>
+<div class="break"></div>
+<div class="break"></div>
+<input type="button" id="suma" value="+" (click)="suma()"/>
+<input type="button" id="resta" value="-" (click)="resta()"/>
+<div class="break"></div>
+<input type="button" id="producto" value="x" (click)="producto()"/>
+<input type="button" id="division" value="/" (click)="division()"/>
+</form>
+<p>Resultado: {{resultado}}</p>
