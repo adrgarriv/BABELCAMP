@@ -1,0 +1,40 @@
+<label for="idV">ID</label>
+    <div>
+        <input id="idV" [(ngModel)]="id"/>
+    </div>
+<label for="titulo">Titulo</label>
+    <div>
+        <input id="titulo" [(ngModel)]="titulo"/>
+    </div>    
+<label for="company">Compañia</label>
+    <div>
+        <input id="company" [(ngModel)]="company"/>
+    </div> 
+<label for="score">Valoracion</label>
+    <div>
+        <input id="score" [(ngModel)]="score"/>
+    </div> 
+    <div> 
+        <button (click)="alta()">Alta</button>
+        <button (click)="modificar()">Modificar</button>
+        <button (click)="baja()">Baja</button>
+      </div>
+<table>    
+      <caption><strong>Tabla de videojuegos</strong></caption>
+      <thead>
+          <tr>
+              <th>ID</th>
+              <th>Titulo</th>
+              <th>Compañia</th>
+              <th>Valoracion</th>
+          </tr>
+      </thead>
+      <tbody>
+        <tr *ngFor="let v of listaVjs">
+            <td>{{ v.id }}</td>
+            <td>{{ v.titulo}}</td>
+            <td>{{v.company }}</td>
+            <td>{{v.score}}</td>
+        </tr>
+      </tbody>
+</table> 
