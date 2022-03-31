@@ -1,0 +1,31 @@
+*{
+    font-family: "Open Sans", sans-serif; 
+}
+h1{
+    width:500px;
+    margin-left: 500px;
+    color: white;
+    text-align: center;
+    font-family: "Open Sans", sans-serif;
+}
+thead{
+    background-color:darkslateblue;
+    color: white;
+    text-align: center;
+}
+tbody{
+    background: white;
+    text-align: center;
+
+}
+td{
+    height: 225px;
+    width: 225px;
+}
+table{
+    margin-left:12%;
+}
+img{
+    max-width: 225px;
+    max-height: 225px;
+}

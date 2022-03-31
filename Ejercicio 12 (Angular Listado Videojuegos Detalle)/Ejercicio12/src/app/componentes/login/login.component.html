@@ -1,0 +1,15 @@
+<section id="form">
+  <h2>Login</h2>
+    <input placeholder="Usuario" type="text" id="nombre" [(ngModel)]="nombre">
+    <input placeholder="Contraseña" type="password" id="pass" [(ngModel)]="pass">
+    <div *ngIf="mostrarTextoRellenar">
+      <h5>Hay que rellenar usuario y contraseña</h5>
+    </div>
+    <div *ngIf="mostrarTextoErrorUsuario">
+      <h5>El usuario introducido no existe</h5>
+    </div>
+    <div *ngIf="mostrarTextoErrorPass">
+      <h5>La contraseña es incorrecta</h5>
+    </div>
+<button id="submit" (click)="validar()">Login</button>
+</section>
