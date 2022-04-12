@@ -12,6 +12,7 @@ public class Fortaleza
 	
 	public synchronized void entrar(Personaje p)
 	{
+		System.out.println("Ha entrado "+p.getNombre());
 		boolean bossRip;
 		if(fb.getPs()>0)
 		{
