@@ -1,0 +1,10 @@
+-------------------------------------------------------------------------------
+Test set: junit5.GestorCocheTest
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.235 s <<< FAILURE! - in junit5.GestorCocheTest
+testObtenerPorId  Time elapsed: 0.231 s  <<< ERROR!
+java.lang.NoClassDefFoundError: org/junit/Assert
+	at junit5.GestorCocheTest.testObtenerPorId(GestorCocheTest.java:18)
+Caused by: java.lang.ClassNotFoundException: org.junit.Assert
+	at junit5.GestorCocheTest.testObtenerPorId(GestorCocheTest.java:18)
+
