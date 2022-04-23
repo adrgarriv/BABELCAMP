@@ -1,0 +1,25 @@
+<app-menu></app-menu>
+<div>
+  <table>    
+    <caption><strong>Tabla de videojuegos</strong></caption>
+    <thead>
+        <tr>
+            <th>ID</th>
+            <th>Titulo</th>
+            <th>Imagen</th>
+        </tr>
+    </thead>
+    <tbody>
+      <tr *ngFor="let v of listaVjs" (click)="seleccionar(v)">
+          <td>{{ v.id }}</td>
+          <td>{{ v.titulo}}</td>
+          <td><img src={{v.img}} alt=":("></td>
+      </tr>
+    </tbody>
+  </table> 
+</div>
+<div *ngIf="mostrarDetalle">
+  <app-detalle-vj [v]="v"></app-detalle-vj>
+  <button (click)="ocultarDetalle()">Ocultar detalle</button>
+</div>
+

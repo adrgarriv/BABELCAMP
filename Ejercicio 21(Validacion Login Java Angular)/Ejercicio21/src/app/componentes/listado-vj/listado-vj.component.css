@@ -1,0 +1,36 @@
+thead{
+    background-color:darkslateblue;
+    color: white;
+    text-align: center;
+}
+tbody{
+    background: white;
+    text-align: center;
+
+}
+td{
+    height: 225px;
+    width: 225px;
+}
+table{
+    margin-left:28%;
+}
+img{
+    max-width: 225px;
+    max-height: 225px;
+}
+*{
+    font-family: "Open Sans", sans-serif; 
+}
+button {
+    cursor: pointer;
+    background: darkslateblue;
+    width: 200px;
+    padding: 10px 15px;
+    border: 0;
+    color: #fff;
+    font-size: 14px;
+    font-weight: 400;
+    margin-left: 43%;
+    
+  }

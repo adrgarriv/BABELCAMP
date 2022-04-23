@@ -1,0 +1,22 @@
+<h1>Detalle del videojuego</h1>
+<table>
+<caption><strong>Tabla del videojuego detallado</strong></caption>
+<thead>
+    <tr>
+        <th>ID</th>
+        <th>Titulo</th>
+        <th>Imagen</th>
+        <th>Compañia</th>
+        <th>Valoracion</th>
+    </tr>
+</thead>
+<tbody>
+  <tr>
+      <td>{{ v.id }}</td>
+      <td>{{ v.titulo}}</td>
+      <td><img src={{v.img}} alt=":("></td>
+      <td>{{v.company}}</td>
+      <td>{{v.score}}</td>
+  </tr>
+</tbody>
+</table> 
